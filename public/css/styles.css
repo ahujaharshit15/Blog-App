@@ -1,0 +1,23 @@
+.new-post{
+    margin: 2%;
+    color: #7D5A50;
+}
+
+.text-field{
+    margin: 2%;
+}
+
+.button-color{
+    background-color:#B4846C;
+}
+.button-color:hover{
+    background-color:#7D5A50;
+}
+
+.error-img{
+    width: 500px;
+}
+
+.button-delete{
+    text-align: right;
+}

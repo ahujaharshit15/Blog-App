@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+
+    <h1 class="new-post">Add a new post...</h1>
+
+    <form class="text-field" action="/create" method="POST">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input required autocomplete="off" name="title" class="form-control" id="title" placeholder="About the chronicle">
+        </div>
+        <div class="mb-3 ">
+            <label for="details" class="form-label">Details</label>
+            <textarea required autocomplete="off" name="details" class="form-control" id="details" rows="4" placeholder="The chronicle"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg button-color">Submit</button>
+
+    </form>
+
+
+
+
+
+    <%- include("partials/footer") -%>
